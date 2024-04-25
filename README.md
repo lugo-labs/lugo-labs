@@ -5,7 +5,7 @@
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on my Home lab
+🔭 I’m currently working on my Home lab
 - 🌱 I’m currently learning Python,Bash, Splunk & bunch of other stuff.
 - 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...
