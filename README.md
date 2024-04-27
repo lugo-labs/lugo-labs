@@ -10,7 +10,8 @@
 # 📊 Stats:
 ![](https://github-readme-stats.vercel.app/api?username=lugo-labs&theme=default&hide_border=true&include_all_commits=false&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=lugo-labs&theme=default&hide_border=true)<br/>
-<script src="https://tryhackme.com/badge/1211057"></script>
+<img src="https://tryhackme-badges.s3.amazonaws.com/LuGo.png" alt="TryHackMe">
+
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=merko)
