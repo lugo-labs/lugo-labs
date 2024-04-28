@@ -8,10 +8,11 @@ on:
 jobs:
   tryhackme-badge-update:
     name: Update this repo's tryhackme badge with the latest tryhackme image badge
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: lugo-labs/.github/workflows/tryhackme-badge-workflow@main
+      - uses: lugo-labs/tryhackme-badge-workflow@main
         with:
+        #
           username: "LuGo"
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
