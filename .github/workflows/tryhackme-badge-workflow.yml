@@ -8,7 +8,7 @@ on:
 jobs:
   tryhackme-badge-update:
     name: Update this repo's tryhackme badge with the latest tryhackme image badge
-    runs-on: MacOS-latest
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v2
       - uses: lugo-labs/tryhackme-badge-workflow@main
