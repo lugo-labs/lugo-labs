@@ -1,0 +1,25 @@
+name: Update TryHackMe Badge
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs every day at midnight
+
+jobs:
+  update-badge:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v2
+
+    - name: Download TryHackMe Badge
+      run: |
+        curl https://tryhackme-badges.s3.amazonaws.com/LuGo.png -o assets/tryhackme-badge.png
+
+    - name: Commit and Push if changed
+      run: |
+        git config --global user.email "manuel.s.lugo@icloud.com"
+        git config --global user.name "lugo-labs"
+        git add assets/tryhackme-badge.png
+        git commit -m "Update TryHackMe badge" || echo "No changes to badge."
+        git push
