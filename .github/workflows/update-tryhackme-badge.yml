@@ -16,7 +16,7 @@ jobs:
 
     - name: Download TryHackMe Badge
       run: |
-        curl https://tryhackme-badges.s3.amazonaws.com/myusername.png -o assets/tryhackme-badge.png
+        curl https://tryhackme-badges.s3.amazonaws.com/LuGo.png -o assets/tryhackme-badge.png
 
     - name: Commit and Push if changed
       run: |
