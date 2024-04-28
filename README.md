@@ -12,7 +12,7 @@
 
 ![](https://github-readme-streak-stats.herokuapp.com/?user=lugo-labs&theme=default&hide_border=true)<br/>
 
-<script src="https://tryhackme.com/badge/1211057"></script>
+
 
 ![TryHackMe Badge](https://github.com/lugo-labs/lugo-labs/blob/main/assets/tryhackme-badge.png)
 
