@@ -11,10 +11,12 @@ jobs:
     steps:
     - name: Checkout repo
       uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}  # This line ensures the GITHUB_TOKEN is used for checking out and committing
 
     - name: Download TryHackMe Badge
       run: |
-        curl https://tryhackme-badges.s3.amazonaws.com/LuGo.png -o assets/tryhackme-badge.png
+        curl https://tryhackme-badges.s3.amazonaws.com/myusername.png -o assets/tryhackme-badge.png
 
     - name: Commit and Push if changed
       run: |
