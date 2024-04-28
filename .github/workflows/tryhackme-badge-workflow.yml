@@ -11,7 +11,7 @@ jobs:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: lugo-labs/tryhackme-badge-workflow@main
+      - uses: ./lugo-labs/tryhackme-badge-workflow@main
         with:
         #
           username: "LuGo"
