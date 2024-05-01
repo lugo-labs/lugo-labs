@@ -1,5 +1,5 @@
 # 💫 About Me
-🔭 I’m currently working on Homelabs<br>👯 I’m looking to collaborate on Flipper Zero Project<br>🤝 I’m looking for help with Creating a Port Scanner w/ Python<br>🌱 I’m currently learning Python, Splunk, Bash & others<br>💬 Ask me about A.I tech, robots, cars and guns<br>⚡ Fun fact I love to tinker with tech and build stuff
+🔭 I’m currently working on Homelabs <br>👯 I’m looking to collaborate on Flipper Zero Project<br>🤝 I’m looking for help with Creating a Port Scanner w/ Python<br>🌱 I’m currently learning Python, Splunk, Bash & others<br>💬 Ask me about A.I tech, robots, cars and guns<br>⚡ Fun fact I love to tinker with tech and build stuff
 
 
 ## 🌐 Socials
