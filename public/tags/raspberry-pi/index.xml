@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raspberry Pi on Lugo Labs</title>
+    <link>www.lugo-labs.com/tags/raspberry-pi/</link>
+    <description>Recent content in Raspberry Pi on Lugo Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Manuel Lugo</copyright>
+    <lastBuildDate>Wed, 11 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="www.lugo-labs.com/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Raspberry Pi-Hole</title>
+      <link>www.lugo-labs.com/projects/raspberry-pi-hole/</link>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>www.lugo-labs.com/projects/raspberry-pi-hole/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="www.lugo-labs.com/projects/raspberry-pi-hole/feature.png" />
+    </item>
+    
+  </channel>
+</rss>

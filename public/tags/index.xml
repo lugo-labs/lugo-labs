@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Lugo Labs</title>
+    <link>www.lugo-labs.com/tags/</link>
+    <description>Recent content in Tags on Lugo Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Manuel Lugo</copyright>
+    <lastBuildDate>Wed, 11 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="www.lugo-labs.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Blog</title>
+      <link>www.lugo-labs.com/tags/blog/</link>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>www.lugo-labs.com/tags/blog/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blowfish</title>
+      <link>www.lugo-labs.com/tags/blowfish/</link>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>www.lugo-labs.com/tags/blowfish/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Homelab</title>
+      <link>www.lugo-labs.com/tags/homelab/</link>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>www.lugo-labs.com/tags/homelab/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>www.lugo-labs.com/tags/hugo/</link>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>www.lugo-labs.com/tags/hugo/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Pi-Hole</title>
+      <link>www.lugo-labs.com/tags/pi-hole/</link>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>www.lugo-labs.com/tags/pi-hole/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Portfolio</title>
+      <link>www.lugo-labs.com/tags/portfolio/</link>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>www.lugo-labs.com/tags/portfolio/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Raspberry Pi</title>
+      <link>www.lugo-labs.com/tags/raspberry-pi/</link>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>www.lugo-labs.com/tags/raspberry-pi/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Setup</title>
+      <link>www.lugo-labs.com/tags/setup/</link>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>www.lugo-labs.com/tags/setup/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

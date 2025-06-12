@@ -1,0 +1,36 @@
+[[main]]
+name = "Blogs"
+pre = "blogger"
+pageRef = "Blogs"
+identifier = "XHrJFWeTcw"
+weight = 9_999
+
+[[main]]
+name = "Projects"
+pre = "codepen"
+pageRef = "Projects"
+identifier = "9eu8fnnaHU"
+weight = 9_999
+
+[[main]]
+name = "Portfolio"
+pre = "eye"
+pageRef = "Portfolio"
+identifier = "1fYIjzctYy"
+weight = 9_999
+
+[[main]]
+name = "About"
+pre = "circle-info"
+pageRef = "about"
+identifier = "lmVfs7qkCw"
+weight = 9_999
+
+[[footer]]
+none = "none"
+
+[[footer]]
+name = "Site Info"
+pageRef = "site-info"
+identifier = "VTyLAZbN2y"
+weight = 9_999

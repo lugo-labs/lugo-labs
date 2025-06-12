@@ -1,0 +1,20 @@
+<!-- Load TypeIt via CDN -->
+<script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+
+<!-- Init after DOM is ready -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    new TypeIt("#typeit-text", {
+      speed: 50,
+      loop: true,
+    })
+    .type("Breaking, building...")
+    .pause(1000)
+    .delete()
+    .type("Learning in cybersecurity.")
+    .pause(1000)
+    .delete()
+    .type("Documenting labs & growth.")
+    .go();
+  });
+</script>

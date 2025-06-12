@@ -1,0 +1,25 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Lugo Labs"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+
+[[params.author.links]]
+email = "manuel.s.lugo@icloud.com"
+
+[[params.author.links]]
+github = "https://github.com/lugo-labs"
+
+[[params.author.links]]
+linkedin = "https://linkedin.com/in/manuel-lugo-x"
+
+["params.author"]
+image = "Headshot.png"
+name = "Manuel Lugo"
+bio = "Cybersecurity student, veteran, and hands-on builder documenting my journey through labs, tools, and real-world projects."

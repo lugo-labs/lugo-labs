@@ -1,0 +1,42 @@
+{{ define "main" }}
+  <section class="prose prose-invert mx-auto my-12">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.description }}<p class="lead">{{ . }}</p>{{ end }}
+  </section>
+
+  <div class="overflow-x-auto mx-4">
+    <table class="min-w-full">
+      <thead class="bg-neutral-800">
+        <tr>
+          <th class="px-4 py-5 text-left">Logo</th>
+          <th class="px-4 py-5 text-left">Title</th>
+          <th class="px-4 py-5 text-left">Description</th>
+          <th class="px-4 py-5 text-left">References</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-neutral-700">
+      {{ range .Pages.ByDate.Reverse }}
+        <tr class="hover:bg-neutral-700">
+          <td class="px-4 py-2">
+            {{ with .Resources.GetMatch "feature*" }}
+              <img src="{{ .RelPermalink }}" class="h-12 w-12 object-cover rounded" alt="{{ $.Title }}">
+            {{ end }}
+          </td>
+          <td class="px-4 py-2 font-semibold">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </td>
+          <td class="px-4 py-2">{{ .Params.description }}</td>
+          <td class="px-4 py-2 flex flex-col space-y-1">
+            {{ with .Params.site }}
+            <a href="{{ . }}" class="text-blue-400 hover:underline">site</a>
+            {{ end }}
+{{ with .Params.repo }}
+    <a href="{{ . }}" class="text-blue-400 hover:underline">github</a>
+  {{ end }}
+</td>
+        </tr>
+      {{ end }}
+      </tbody>
+    </table>
+  </div>
+{{ end }}
