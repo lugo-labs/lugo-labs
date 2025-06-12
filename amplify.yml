@@ -7,7 +7,7 @@ frontend:
         # (skip if you already have it on the build image)
     build:
       commands:
-        - hugo --gc --minify
+        - hugo --gc --minify --baseURL "https://main.drofz324x3x4l.amplifyapp.com/"
   artifacts:
     # directory with the finished, static site
     baseDirectory: public
